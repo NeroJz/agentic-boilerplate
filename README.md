@@ -24,3 +24,15 @@ python -m venv
 source .venv/bin/activate
 pip install
 ```
+
+## Usage
+The repo contains template.ipnb which is a boilerplate template that you can duplicate to kick start the R&D work.
+
+Make sure create .env and setup all the environment variables like API_KEY, MODEL and etc.
+
+Make sure the following is configured in .env:
+OPENAI_API_KEY
+MODEL
+
+The OPENAI_API_KEY is a key created from your Openai account and the MODEL is the LLM model that you want to test.
+
