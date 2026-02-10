@@ -31,8 +31,14 @@ The repo contains template.ipnb which is a boilerplate template that you can dup
 Make sure create .env and setup all the environment variables like API_KEY, MODEL and etc.
 
 Make sure the following is configured in .env:
-OPENAI_API_KEY
-MODEL
+* *OPENAI_API_KEY*: Openai API key
+* *MODEL*: Openai Model
+
+* *AZURE_OPENAI_ENDPOINT* : Endpoint of the model deployed in azure
+* *AZURE_OPENAI_DEPLOYMENT_NAME*: Deployment name in azure
+* *AZURE_OPENAI_API_VERSION*: API version in azure
+* *AZURE_OPENAI_API_KEY*: API key deployed in azure
+* *AZURE_OPENAI_MODEL*: Model deployed in azure
 
 The OPENAI_API_KEY is a key created from your Openai account and the MODEL is the LLM model that you want to test.
 
