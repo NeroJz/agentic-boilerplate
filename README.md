@@ -40,5 +40,17 @@ Make sure the following is configured in .env:
 * *AZURE_OPENAI_API_KEY*: API key deployed in azure
 * *AZURE_OPENAI_MODEL*: Model deployed in azure
 
+* *AZ_PBI_AUTHENTICATIONMODE*: PowerBI service principal authentication mode
+* *AZ_PBI_AUTHORITYURL*: PowerBI service principal authority URL
+* *AZ_PBI_SCOPEBASE*: PowerBI service principal scope
+* *AZ_PBI_POWERBIAPIURL*: PowerBI service principal api url
+* *AZ_PBI_CLIENTID*: PowerBI service principal client id
+* *AZ_PBI_WORKSPACEID*: PowerBI service workspace id
+* *AZ_PBI_PBIUSERNAME*: PowerBI service principal username
+* *AZ_PBI_PBIPASSWORD*: PowerBI service principal password
+* *AZ_PBI_CLIENTSECRET*: PowerBI service principal client secret
+* *AZ_PBI_TENANTID*: PowerBI service tenant id
+* *AZ_DATASET_ID*: PowerBI service dataset id
+
 The OPENAI_API_KEY is a key created from your Openai account and the MODEL is the LLM model that you want to test.
 
