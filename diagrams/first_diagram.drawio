@@ -1,37 +1,76 @@
 <mxfile host="65bd71144e">
     <diagram id="FkmzUNtSmhGevf1O6kcX" name="Page-1">
-        <mxGraphModel dx="606" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="1186" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="12" value="" style="group" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="100" y="160" width="310" height="98" as="geometry"/>
+                <mxCell id="2" value="" style="shape=actor;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="170" width="40" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="" style="shape=actor;whiteSpace=wrap;html=1;" parent="12" vertex="1">
-                    <mxGeometry y="10" width="40" height="60" as="geometry"/>
+                <mxCell id="14" style="edgeStyle=none;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="376" y="306" as="targetPoint"/>
+                        <mxPoint x="376" y="246" as="sourcePoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="LLM" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="12" vertex="1">
-                    <mxGeometry x="190" width="120" height="80" as="geometry"/>
+                <mxCell id="17" style="edgeStyle=none;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="334" y="245" as="targetPoint"/>
+                        <mxPoint x="334" y="305" as="sourcePoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="12" edge="1">
+                <mxCell id="4" value="LLM" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="160" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
                     <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="60" y="30" as="sourcePoint"/>
-                        <mxPoint x="160" y="30" as="targetPoint"/>
+                        <mxPoint x="160" y="190" as="sourcePoint"/>
+                        <mxPoint x="260" y="190" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="User Input" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="12" vertex="1">
-                    <mxGeometry x="70" width="80" height="30" as="geometry"/>
+                <mxCell id="9" value="User Input" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="160" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="12" edge="1">
+                <mxCell id="10" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
                     <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="160" y="60" as="sourcePoint"/>
-                        <mxPoint x="60" y="60" as="targetPoint"/>
+                        <mxPoint x="260" y="220" as="sourcePoint"/>
+                        <mxPoint x="160" y="220" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="DAX Query" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="12" vertex="1">
-                    <mxGeometry x="80" y="68" width="80" height="30" as="geometry"/>
+                <mxCell id="11" value="DAX Query" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="228" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="517" y="340" as="targetPoint"/>
+                        <mxPoint x="417" y="340" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Checker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="PowerBI" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerBI.svg;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="290" width="51" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="DAX Query" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="258" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="DAX Query" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="308" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="415" y="352" as="targetPoint"/>
+                        <mxPoint x="515" y="352" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="Passed/Error" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="415" y="352" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Passed/&lt;div&gt;Error&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="258" width="70" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
