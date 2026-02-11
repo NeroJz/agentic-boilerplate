@@ -224,6 +224,7 @@ FORBIDDEN PATTERNS
 
 Before returning the final answer:
 - Validate the table and column names
+- Ensure no duplicated column names
 - Fix and rewrite any invalid expression or DAX syntax
 - Ensure the query returns a table
 - Ensrue execution safety
