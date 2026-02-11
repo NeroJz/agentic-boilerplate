@@ -55,7 +55,7 @@ class DaxGenerate:
       
       return '\n'.join(messages) 
 
-  def generate_with_check(self, user_input, max_attempt=2):
+  def generate_with_check(self, user_input, max_attempt=5):
     try:
       content = self._form_prompt(user_input)
       attempt = 0
@@ -79,8 +79,8 @@ class DaxGenerate:
 
           query = response.choices[0].message.content
 
-          if attempt == 0:
-            query = query + " filtering = 200"
+          # if attempt == 0:
+          #   query = query + " filtering = 200"
 
           # print(f"{attempt} - query" + ("-" * 80))
           # print(query)
